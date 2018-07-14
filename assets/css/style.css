@@ -1,0 +1,27 @@
+body{
+     margin: 0;
+     padding: 0;
+     background-color: #f5f7f8 ;
+}
+
+i{
+    padding:10px;
+}
+.nav-link{
+    color: white!important;
+}
+.navbar{
+    padding: 0;
+}
+.edit-account-img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.n-brand{
+   padding: 12px 24px!important;
+}
+.n-brand:hover{
+    color: #000!important;
+    background-color: #ccc!important;
+}
