@@ -72,10 +72,11 @@ hr{
     text-decoration: none;
 
 }
-.btn-link:hover{
-    background-color: #ccc;
+.btn-link:hover, .btn-secondary:hover{
+    background-color: #ccc !important;
     color: #000;
     text-decoration: none;
+    border-color: #ccc !important;
 }
 .card-title-intersets{
     padding: 15px;
@@ -86,4 +87,16 @@ hr{
 
 .close{
     background-color: white!important;
+}
+/*Middle side style*/
+
+.n-post-input{
+    margin-bottom: 20px;
+}
+.btn-secondary{
+    background-color: #607d8b !important;
+}
+.n-btn-post{
+    text-align: center;
+    padding-right: 20px;
 }
