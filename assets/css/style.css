@@ -44,7 +44,7 @@ i{
 }
 /*Left Side Style*/
 
-.card-title{
+.card-title-profile{
     text-align: center;
     padding: 10px;
 }
@@ -62,3 +62,24 @@ hr{
     padding-right: 20px;
 }
 
+.card-header{
+    background-color: #7d97a5 !important;
+    padding: 0;
+}
+.btn-link{
+     width: 100%;
+    color: #fff;
+    text-decoration: none;
+
+}
+.btn-link:hover{
+    background-color: #ccc;
+    color: #000;
+    text-decoration: none;
+}
+.card-title-intersets{
+    padding: 15px;
+}
+.card-body-intersts{
+    padding: 0 15px 10px 15px;
+}
