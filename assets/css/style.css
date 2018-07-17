@@ -66,16 +66,15 @@ hr{
     background-color: #7d97a5 !important;
     padding: 0;
 }
-.btn-link{
+
+.n-btn-accordion{
      width: 100%;
-    color: #fff;
-    text-decoration: none;
+    color: #fff;`
 
 }
-.btn-link:hover, .btn-secondary:hover{
+ .n-btn-accordion:hover,.n-btn-post:hover{
     background-color: #ccc !important;
     color: #000;
-    text-decoration: none;
     border-color: #ccc !important;
 }
 .card-title-intersets{
