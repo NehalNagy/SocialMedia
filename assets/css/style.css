@@ -83,3 +83,7 @@ hr{
 .card-body-intersts{
     padding: 0 15px 10px 15px;
 }
+
+.close{
+    background-color: white!important;
+}
