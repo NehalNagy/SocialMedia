@@ -42,3 +42,23 @@ i{
     color: #BF2C0C!important;
     background-color: #ccc!important;
 }
+/*Left Side Style*/
+
+.card-title{
+    text-align: center;
+    padding: 10px;
+}
+
+.card-profile-img{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+hr{
+    margin: 1rem!important;
+}
+.card-text >i{
+    color: #607d8b !important;
+    padding-right: 20px;
+}
+
