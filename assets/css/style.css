@@ -19,9 +19,26 @@ i{
     border-radius: 50%;
 }
 .n-brand{
-   padding: 12px 24px!important;
+   background-color: #3a4b53;
+   padding: 6px 24px!important;
+   margin: 0;
 }
 .n-brand:hover{
     color: #000!important;
+    background-color: #ccc!important;
+}
+.bg-dark{
+    background-color:#4d636f !important ;
+}
+
+.dropdown:hover>.dropdown-menu {
+ display: block;
+}
+.n-nav-item:hover{
+    background-color: #fff;
+     color: #BF2C0C!important;
+}
+.n-nav-item-drop-menu:hover{
+    color: #BF2C0C!important;
     background-color: #ccc!important;
 }
