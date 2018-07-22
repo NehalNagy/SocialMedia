@@ -7,6 +7,9 @@ body{
 i{
     padding:10px;
 }
+h5{
+    font-weight: 400;
+}
 .nav-link{
     color: white!important;
 }
@@ -97,5 +100,15 @@ hr{
 }
 .n-btn-post{
     text-align: center;
-    padding-right: 20px;
+    padding-right: 10px;
+}
+.n-fa{
+    font-size: small;
+    padding: .2rem;
+}
+.n-post-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
 }
