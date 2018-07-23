@@ -3,7 +3,17 @@ body {
     padding: 0;
     background-color: #f5f7f8;
 }
-
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.menu-links{
+    margin: 10px;
+}
 .n-icons {
     padding: 10px;
 }

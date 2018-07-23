@@ -28,20 +28,20 @@
         <a class="navbar-brand n-brand" href="#"><i class="fa fa-home n-icons"></i>Logo</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
+        </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
+                <li class="nav-item d-none d-lg-inline">
                     <a class="nav-link n-nav-item" href="#" title="News"><i class="fa fa-globe n-icons"></i> <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item d-none d-lg-inline">
                     <a class="nav-link n-nav-item" href="#" title="Account Settings"><i class="fa fa-user n-icons"></i></a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item d-none d-lg-inline">
                     <a class="nav-link n-nav-item" href="#" title="Messages"><i class="fa fa-envelope n-icons "></i></a>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown d-none d-lg-inline">
                     <a class="nav-link dropdown-toggle n-nav-item-drop-menu" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i class="fa fa-bell n-icon-bell "></i>
                         <span class="notifications align-top">3</span>
@@ -53,11 +53,14 @@
                     </div>
                 </li>
 
-
-
+            <!-- display menu links in small devices-->
+                <li class="nav-item d-inline d-lg-none menu-links"><a href="#">Link1</a></li>
+                <li class="nav-item d-inline d-lg-none menu-links"><a href="#">Link2</a></li>
+                <li class="nav-item d-inline d-lg-none menu-links"><a href="#">My Profile </a></li>
+            <!--End of menu links-->
             </ul>
             <ul class="navbar-nav mr-4">
-                <li class="nav-item">
+                <li class="nav-item d-none d-lg-inline">
                     <a class="nav-link" href="#" title="My Account">
                         <img class="edit-account-img" src="assets/images/avatar2.png" alt="">
                     </a>
