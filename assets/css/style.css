@@ -72,7 +72,8 @@ hr{
 
 .n-btn-accordion{
      width: 100%;
-    color: #fff;`
+    color: #fff;
+    text-align: left;
 
 }
  .n-btn-accordion:hover,.n-btn-post:hover{
