@@ -101,14 +101,23 @@ hr{
 .n-btn-post{
     text-align: center;
     padding-right: 10px;
+    border-radius: 0;
 }
 .n-fa{
-    font-size: small;
-    padding: .2rem;
+    font-size: medium;
+    padding: .3rem;
 }
 .n-post-img{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-
+}
+.n-post-time{
+   text-align: right;
+   color: gray;
+}
+.img-responsive{
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
