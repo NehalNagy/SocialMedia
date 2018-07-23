@@ -1,124 +1,220 @@
-body{
-     margin: 0;
-     padding: 0;
-     background-color: #f5f7f8 ;
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7f8;
 }
 
-i{
-    padding:10px;
+.n-i {
+    padding: 10px;
 }
-h5{
+
+h5 {
     font-weight: 400;
 }
-.nav-link{
-    color: white!important;
+
+.nav-link {
+    color: white !important;
 }
-.navbar{
+
+.navbar {
     padding: 0;
 }
-.edit-account-img{
+
+.edit-account-img {
     width: 25px;
     height: 25px;
     border-radius: 50%;
 }
-.n-brand{
-   background-color: #3a4b53;
-   padding: 6px 24px!important;
-   margin: 0;
-}
-.n-brand:hover{
-    color: #000!important;
-    background-color: #ccc!important;
-}
-.bg-dark{
-    background-color:#4d636f !important ;
+
+.n-brand {
+    background-color: #3a4b53;
+    padding: 6px 24px !important;
+    margin: 0;
 }
 
-.dropdown:hover>.dropdown-menu {
- display: block;
+.n-brand:hover {
+    color: #000 !important;
+    background-color: #ccc !important;
 }
-.n-nav-item:hover{
+
+.bg-dark {
+    background-color: #4d636f !important;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+.n-nav-item:hover {
     background-color: #fff;
-     color: #BF2C0C!important;
+    color: #BF2C0C !important;
 }
-.n-nav-item-drop-menu:hover{
-    color: #BF2C0C!important;
-    background-color: #ccc!important;
+
+.n-nav-item-drop-menu:hover {
+    color: #BF2C0C !important;
+    background-color: #ccc !important;
 }
+
 /*Left Side Style*/
 
-.card-title-profile{
+.n-card-title {
     text-align: center;
     padding: 10px;
 }
 
-.card-profile-img{
+.card-profile-img {
     width: 100px;
     height: 100px;
     margin: 0 auto;
 }
-hr{
-    margin: 1rem!important;
+
+hr {
+    margin: 1rem !important;
 }
-.card-text >i{
+
+.card-text > i {
     color: #607d8b !important;
     padding-right: 20px;
 }
 
-.card-header{
+.card-header {
     background-color: #7d97a5 !important;
     padding: 0;
 }
 
-.n-btn-accordion{
-     width: 100%;
+.n-btn-accordion {
+    width: 100%;
     color: #fff;
     text-align: left;
 
 }
- .n-btn-accordion:hover,.n-btn-post:hover{
+
+.n-btn-accordion:hover,
+.n-btn-post:hover {
     background-color: #ccc !important;
     color: #000;
     border-color: #ccc !important;
 }
-.card-title-intersets{
+
+.card-title-intersets {
     padding: 15px;
 }
-.card-body-intersts{
+
+.card-body-intersts {
     padding: 0 15px 10px 15px;
 }
 
-.close{
-    background-color: white!important;
+.close {
+    background-color: white !important;
 }
+
 /*Middle side style*/
 
-.n-post-input{
+.n-post-input {
     margin-bottom: 20px;
 }
-.btn-secondary{
+
+.btn-secondary {
     background-color: #607d8b !important;
 }
-.n-btn-post{
+
+.n-btn-post {
     text-align: center;
     padding-right: 10px;
     border-radius: 0;
 }
-.n-fa{
+
+.n-fa {
     font-size: medium;
     padding: .3rem;
 }
-.n-post-img{
+
+.n-fa-large {
+    font-size: xx-large;
+}
+
+.n-post-img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
 }
-.n-post-time{
-   text-align: right;
-   color: gray;
+
+.n-post-time {
+    text-align: right;
+    color: gray;
 }
-.img-responsive{
+
+.img-responsive {
     max-width: 100%;
     height: auto;
     display: block;
+}
+
+.n-p {
+    margin: 0;
+}
+
+.n-h6 {
+    text-align: center;
+    font-weight: 700;
+}
+
+.n-event-img {
+    margin: 10px;
+}
+
+.n-friend-req-img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.n-btn-info {
+    width: 100%;
+    background-color: #dfe5e8 !important;
+    color: #000;
+    border: 0;
+    border-radius: 0;
+}
+
+.n-btn-info:hover {
+    background-color: #ccc !important;
+    color: #000 !important;
+}
+
+.n-accept,
+.n-decline {
+    opacity: 0.6;
+    padding: 0 !important;
+}
+
+.n-btn-accept,
+.n-btn-decline {
+    border-radius: 0;
+    border: none;
+    margin: 0;
+    padding: auto 0 !important;
+    width: 100%;
+
+}
+
+.n-btn-accept:hover,
+.n-btn-decline:hover {
+    background-color: #ccc !important;
+    color: #000 !important;
+}
+
+.footer1 {
+    padding: 20px 90% 20px 1%;
+    background-color: #435761 !important;
+    color: #fff;
+}
+
+.footer2 {
+    background-color: #303e45 !important;
+    color: #fff;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 1%;
 }
